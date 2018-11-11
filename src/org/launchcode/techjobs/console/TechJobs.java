@@ -122,13 +122,13 @@ public class TechJobs {
 
         } else {
 
-            for (HashMap<String, String> jobs : someJobs) {
+            for (HashMap<String, String> job : someJobs) {
 
                 System.out.println("\n*****");
 
-                for (Map.Entry<String, String> job: jobs.entrySet()) {
+                for (Map.Entry<String, String> jobtrait: job.entrySet()) {
 
-                    System.out.println(job.getKey() + ": " + job.getValue());
+                    System.out.println(jobtrait.getKey() + ": " + jobtrait.getValue());
 
                 }
 
