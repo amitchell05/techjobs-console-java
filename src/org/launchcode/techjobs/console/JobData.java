@@ -97,7 +97,7 @@ public class JobData {
 
                 String aValue = row.getValue();
 
-                if (aValue.toLowerCase().contains(value)) {
+                if (aValue.toLowerCase().contains(value.toLowerCase())) {
 
                     if (!jobs.contains(rows)) {
 
